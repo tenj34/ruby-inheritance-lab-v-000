@@ -5,6 +5,7 @@ class Student < User
   end
 
   def last_name
+  end
 
 
 end
