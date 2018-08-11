@@ -9,5 +9,9 @@ class Student < User
     @last_name
   end
 
+  def new
+
+  end
+
 
 end
