@@ -1,5 +1,5 @@
 class Student < User
-
+  attr_accessor :knowledge
 
   def first_name
     @first_name
@@ -9,7 +9,7 @@ class Student < User
     @last_name
   end
 
-  def new
+  def initialize
 
   end
 
